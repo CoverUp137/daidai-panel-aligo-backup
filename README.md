@@ -47,19 +47,8 @@ aligo
 docker exec -it daidai-panel pip install aligo
 ```
 
-### 4. 配置环境变量（可选）
 
-在呆呆面板 **环境变量** 中添加以下变量（均为可选，不填则使用默认值）：
-
-| 变量名 | 说明 | 默认值 |
-|---|---|---|
-| `DD_EXCLUDE_NAMES` | 排除的目录名（逗号分隔） | `logs,backups` |
-| `DD_BACKUPS_PATH` | 本地备份存放子目录 | `backups` |
-| `DD_MAX_FILES` | 最大保留备份数量（本地+云端） | `5` |
-| `DD_ALI_FOLDER` | 阿里云盘目标目录名 | `daidai-panel-backups` |
-
-
-### 5. 首次运行
+### 4. 首次运行
 
 首次执行会触发阿里云盘扫码登录：
 
@@ -70,6 +59,19 @@ https://cli.im/api/qrcode/code?text=xxx
 ```
 
 复制链接到浏览器，用阿里云盘 App 扫码即可完成授权。授权信息会自动保存，后续无需重复登录。
+
+
+### 5. 配置环境变量（可选）
+
+在呆呆面板 **环境变量** 中添加以下变量（均为可选，不填则使用默认值）：
+
+| 变量名 | 说明 | 默认值 |
+|---|---|---|
+| `DD_EXCLUDE_NAMES` | 排除的目录名（逗号分隔） | `logs,backups` |
+| `DD_BACKUPS_PATH` | 本地备份存放子目录 | `backups` |
+| `DD_MAX_FILES` | 最大保留备份数量（本地+云端） | `5` |
+| `DD_ALI_FOLDER` | 阿里云盘目标目录名 | `daidai-panel-backups` |
+
 
 ## 备份内容说明
 

@@ -13,18 +13,6 @@
 - 📱 **消息推送** — 支持呆呆面板内置通知渠道（Bark、Telegram、Server酱、企业微信等）
 - ⚙️ **环境变量配置** — 所有关键参数均可通过环境变量自定义
 
-## 呆呆面板 vs 青龙面板 目录差异
-
-| 项目 | 青龙面板 | 呆呆面板 |
-|---|---|---|
-| 数据根目录 | `/ql/data/` 或 `/ql/` | `/app/Dumb-Panel` |
-| 数据库 | 多文件/目录 | `daidai.db` (SQLite) |
-| 脚本目录 | `scripts/` | `scripts/` |
-| 日志目录 | `log/` | `logs/` |
-| 依赖目录 | `node_modules/` 等 | `deps/` |
-| 备份目录 | `backups/` | `backups/` |
-| JWT 密钥 | 无 | `.jwt_secret` |
-
 ## 安装使用
 
 ### 1. 下载脚本

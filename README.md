@@ -30,7 +30,7 @@ wget https://gh.0507.dpdns.org/https://raw.githubusercontent.com/CoverUp137/daid
 在呆呆面板 **定时任务** 中新建任务，执行会自动补全依赖：
 
 - **名称**：阿里云盘自动备份
-- **命令**：`task daidai-panel-aligo-backup`
+- **命令**：`task daidai-panel-aligo-backup.py`
 - **定时规则**：`0 2 * * *`（每天凌晨 2 点）
 
 ### 3. [可选]手动安装依赖

@@ -35,9 +35,7 @@ wget https://gh.0507.dpdns.org/https://raw.githubusercontent.com/CoverUp137/daid
 
 ### 3. [可选]手动安装依赖
 
-或者在呆呆面板 **定时任务** **创建新任务** 直接执行备份脚本会自动安装依赖
-
-或在呆呆面板 **依赖管理** 中添加 Python 依赖：
+在呆呆面板 **依赖管理** 中添加 Python 依赖：
 
 ```
 aligo

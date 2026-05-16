@@ -20,9 +20,9 @@
 将 `dd_backup.py` 放入呆呆面板的脚本目录（通常是挂载的 `./Dumb-Panel/scripts/`）：
 
 ```bash
-# 宿主机操作，假设你的 docker-compose 挂载了 ./Dumb-Panel
-cd /your/daidai-panel/path/Dumb-Panel/scripts
-wget https://raw.githubusercontent.com/CoverUp137/daidai-panel-aligo-backup/main/dd_backup.py
+# 宿主机操作，假设你的 docker-compose 挂载了 ./Dumb-Panel在root目录
+cd /root/Dumb-Panel/scripts
+wget https://gh.0507.dpdns.org/https://raw.githubusercontent.com/CoverUp137/daidai-panel-aligo-backup/main/dd_backup.py
 ```
 
 或在面板内 **脚本管理 → 新建文件** 直接粘贴代码。

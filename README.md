@@ -25,9 +25,15 @@ cd /root/Dumb-Panel/scripts
 wget https://gh.0507.dpdns.org/https://raw.githubusercontent.com/CoverUp137/daidai-panel-aligo-backup/main/dd_backup.py
 ```
 
-或在面板内 **脚本管理 → 新建文件** 直接粘贴代码。
+### 2. 创建定时任务
 
-### 2. 安装依赖
+在呆呆面板 **定时任务** 中新建任务：
+
+- **名称**：阿里云盘自动备份
+- **命令**：`task daidai-panel-aligo-backup`
+- **定时规则**：`0 2 * * *`（每天凌晨 2 点）
+
+### 3. 安装依赖
 
 在呆呆面板 **定时任务** **创建新任务** 直接执行备份脚本会自动安装依赖
 
@@ -43,7 +49,7 @@ aligo
 docker exec -it daidai-panel pip install aligo
 ```
 
-### 3. 配置环境变量（可选）
+### 4. 配置环境变量（可选）
 
 在呆呆面板 **环境变量** 中添加以下变量（均为可选，不填则使用默认值）：
 
@@ -54,13 +60,6 @@ docker exec -it daidai-panel pip install aligo
 | `DD_MAX_FILES` | 最大保留备份数量（本地+云端） | `5` |
 | `DD_ALI_FOLDER` | 阿里云盘目标目录名 | `daidai-panel-backups` |
 
-### 4. 创建定时任务
-
-在呆呆面板 **定时任务** 中新建任务：
-
-- **名称**：阿里云盘自动备份
-- **命令**：`task daidai-panel-aligo-backup`
-- **定时规则**：`0 2 * * *`（每天凌晨 2 点）
 
 ### 5. 首次运行
 

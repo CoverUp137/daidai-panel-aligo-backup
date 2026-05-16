@@ -22,7 +22,7 @@
 ```bash
 # 宿主机操作，假设你的 docker-compose 挂载了 ./Dumb-Panel
 cd /your/daidai-panel/path/Dumb-Panel/scripts
-wget https://raw.githubusercontent.com/你的用户名/daidai-panel-aligo-backup/main/dd_backup.py
+wget https://raw.githubusercontent.com/CoverUp137/daidai-panel-aligo-backup/main/dd_backup.py
 ```
 
 或在面板内 **脚本管理 → 新建文件** 直接粘贴代码。

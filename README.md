@@ -1,8 +1,8 @@
 # daidai-panel-aligo-backup
 
-呆呆面板 (Daidai Panel) 阿里云盘自动备份脚本，基于原青龙面板备份脚本适配而来。
+呆呆面板 (Daidai Panel) 阿里云盘自动备份脚本。
 
-> 原脚本为青龙面板设计，本项目针对 [linzixuanzz/daidai-panel](https://github.com/linzixuanzz/daidai-panel) 的目录结构进行了适配。
+> 本项目针对 [linzixuanzz/daidai-panel](https://github.com/linzixuanzz/daidai-panel) 的目录结构进行了适配。
 
 ## 功能特性
 

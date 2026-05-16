@@ -59,7 +59,7 @@ docker exec -it daidai-panel pip install aligo
 在呆呆面板 **定时任务** 中新建任务：
 
 - **名称**：阿里云盘自动备份
-- **命令**：`task dd_backup.py`
+- **命令**：`task daidai-panel-aligo-backup`
 - **定时规则**：`0 2 * * *`（每天凌晨 2 点）
 
 ### 5. 首次运行

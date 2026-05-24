@@ -58,6 +58,10 @@ docker exec -it daidai-panel pip install aligo
 https://cli.im/api/qrcode/code?text=xxx
 ```
 
+如需要自建扫码，请看这里 
+- [i207M/qr-code-worker](https://github.com/i207M/qr-code-worker)
+
+
 复制链接到浏览器，用阿里云盘 App 扫码即可完成授权。授权信息会自动保存，后续无需重复登录。
 
 

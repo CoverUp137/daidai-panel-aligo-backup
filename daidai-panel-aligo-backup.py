@@ -150,7 +150,7 @@ def show(qr_link: str):
     """打印二维码链接"""
     logger.info('请手动复制以下链接，打开阿里网盘App扫描登录')
     # cf自建QR扫码 看这里 https://github.com/i207M/qr-code-worker
-    logger.info(f'https://cli.im/api/qrcode/code?text={qr_link}')
+    logger.info(f'https://qr.7271.dpdns.org/api/qrcode/code?text={qr_link}')
 
 
 def fileremove(filename):
